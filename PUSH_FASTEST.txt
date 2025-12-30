@@ -1,0 +1,70 @@
+═══════════════════════════════════════════════════════════════
+  FASTEST WAY TO PUSH - DO THIS NOW (5 minutes)
+═══════════════════════════════════════════════════════════════
+
+OPTION 1: GitHub Desktop (FASTEST - No command line!)
+─────────────────────────────────────────────────────
+
+1. Download: https://desktop.github.com/
+   (Click "Download for Windows" - it's a small installer)
+
+2. Install GitHub Desktop (takes 1 minute)
+   - Run the installer
+   - Sign in with your GitHub account
+
+3. Clone your repo:
+   - Click "File" → "Clone Repository"
+   - Click "URL" tab
+   - Paste: https://github.com/jatinjashwant/demo.git
+   - Choose: C:\Users\Jatin\New folder (3)\demo
+   - Click "Clone"
+
+4. Copy your files:
+   - Open: C:\Users\Jatin\New folder (3)\shader-app
+   - Select ALL files (Ctrl+A)
+   - EXCEPT: node_modules folder (skip it)
+   - Copy (Ctrl+C)
+   - Go to: C:\Users\Jatin\New folder (3)\demo
+   - Paste (Ctrl+V) - replace if asked
+
+5. Push:
+   - GitHub Desktop will show all changes
+   - Bottom left: Type "Add shader component"
+   - Click "Commit to main"
+   - Click "Push origin" (top right)
+
+DONE! ✅ Takes 5 minutes total!
+
+═══════════════════════════════════════════════════════════════
+
+OPTION 2: Install Git + Command Line (7 minutes)
+─────────────────────────────────────────────────
+
+1. Download Git: https://git-scm.com/download/win
+   - Click "Download for Windows"
+   - Run installer, click "Next" through everything
+   - Restart PowerShell after install
+
+2. Open NEW PowerShell and run:
+   
+   cd "C:\Users\Jatin\New folder (3)\shader-app"
+   git init
+   git remote add origin https://github.com/jatinjashwant/demo.git
+   git add .
+   git commit -m "Add shader animation component"
+   git branch -M main
+   git push -u origin main
+
+3. When asked for password:
+   - Use Personal Access Token (not your password)
+   - Get token: https://github.com/settings/tokens
+   - Click "Generate new token (classic)"
+   - Check "repo" box
+   - Copy token and use as password
+
+═══════════════════════════════════════════════════════════════
+
+RECOMMENDED: Use Option 1 (GitHub Desktop) - It's faster and easier!
+
+═══════════════════════════════════════════════════════════════
+

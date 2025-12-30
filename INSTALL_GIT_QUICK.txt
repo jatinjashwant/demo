@@ -1,0 +1,35 @@
+═══════════════════════════════════════════════════════════════
+  QUICK GIT INSTALLATION FOR WINDOWS
+═══════════════════════════════════════════════════════════════
+
+FASTEST WAY TO INSTALL GIT:
+
+1. Download Git for Windows:
+   https://git-scm.com/download/win
+
+2. Run the installer:
+   - Click "Next" through all screens
+   - Use default options (recommended)
+   - Click "Install"
+
+3. After installation:
+   - Close ALL PowerShell/Command Prompt windows
+   - Open a NEW PowerShell window
+   - Navigate to: cd "C:\Users\Jatin\New folder (3)\shader-app"
+   - Run: .\push.bat
+   OR
+   - Run the commands from QUICK_PUSH.md
+
+═══════════════════════════════════════════════════════════════
+ALTERNATIVE: Use GitHub Desktop (No command line needed!)
+═══════════════════════════════════════════════════════════════
+
+1. Download: https://desktop.github.com/
+2. Install and sign in
+3. File → Add Local Repository
+4. Select: C:\Users\Jatin\New folder (3)\shader-app
+5. Click "Publish repository"
+6. Done!
+
+═══════════════════════════════════════════════════════════════
+

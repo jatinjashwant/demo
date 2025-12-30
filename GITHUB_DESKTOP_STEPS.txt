@@ -1,0 +1,35 @@
+═══════════════════════════════════════════════════════════════
+  QUICKEST WAY TO PUSH - GITHUB DESKTOP
+═══════════════════════════════════════════════════════════════
+
+STEP 1: Download GitHub Desktop
+  → https://desktop.github.com/
+  → Install and sign in with your GitHub account
+
+STEP 2: Clone Your Repository
+  → File → Clone Repository
+  → URL tab
+  → Repository URL: https://github.com/jatinjashwant/demo.git
+  → Local path: C:\Users\Jatin\New folder (3)\demo
+  → Click "Clone"
+
+STEP 3: Copy Your Files
+  → Open File Explorer
+  → Go to: C:\Users\Jatin\New folder (3)\shader-app
+  → Select ALL files and folders EXCEPT:
+     - node_modules (don't copy this)
+     - .next (don't copy this if it exists)
+  → Copy them
+  → Paste into: C:\Users\Jatin\New folder (3)\demo
+
+STEP 4: Push to GitHub
+  → Go back to GitHub Desktop
+  → You'll see all your files listed as changes
+  → At bottom left, write: "Add shader animation component"
+  → Click "Commit to main"
+  → Click "Push origin" button (top right)
+
+DONE! ✅ Your code is now on GitHub and Vercel will auto-deploy!
+
+═══════════════════════════════════════════════════════════════
+

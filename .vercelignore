@@ -1,0 +1,10 @@
+node_modules
+.next
+.git
+*.md
+push.bat
+push-to-github.ps1
+GIT_SETUP.md
+INSTALL_GIT_QUICK.txt
+QUICK_PUSH.md
+
